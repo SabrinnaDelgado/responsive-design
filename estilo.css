@@ -4,7 +4,7 @@ body{
 	font-family: "Open Sans", Helvetica, sans-serif, arial; /*definição da fonte geral incorporada do Google Fonts*/
 	font-size: 18px; /*tamanho da fonte*/
 	font-weight: 300; /*indica que a fonte está configurada como Open Sans Light*/
-	line-height: 22px;/*altura da linha*/
+	line-height: 1.22em;/*altura da linha*/
 	text-align: left; /*alinhando o texto à esquerda*/
 	text-shadow:1px 1px 0px #fff; /*sombreamento para as fontes do site*/
 }
@@ -31,7 +31,7 @@ img, picture, video, embed {
 }
 h1, h2{
 	color:#FE9380;
-	font-size: 60px;
+	font-size: 3.333em;
 	font-weight: 800;
 	letter-spacing: -3px; /*espaçamento entre as letras*/
 	line-height: 60px;
@@ -183,12 +183,12 @@ formatação do texto
 .container p{
 	background-color:#fff;
 	float:left;
-	height:160px;
-	padding:7px;
+	height:0.888em;
+	padding:0.0388em;
 	position:absolute;
-	width-max:360px;
+	width-max:20em;
 	text-align:justify;
-	top:225px;
+	top:12.5em;
 }
 
 /*
@@ -197,20 +197,20 @@ formatação do botão
 =========================
 */
 span.btn{
-	font-size: 20px;
+	font-size: 1.11em;
 	font-weight: 400;
-	letter-spacing: -2px;
-	height:27px;
-	margin-top: 30px;
+	letter-spacing: -0.11em;
+	height:1.5em;
+	margin-top: 1.66em;
 	position:absolute;
-	right: 1px;
+	right: 0.05em;
 	text-align:center;
 	text-shadow:none;
-	width:120px;
+	width:6.66em;
 }
 span.btn a{
 	color:#fff;
-	padding: 2px 4px;
+	padding: 0.11em 0.22em;
 }
 .desktop span.btn a{
 	background-color:#FE9481;
@@ -227,13 +227,13 @@ Seção FOOTER - Rodape com 2 colunas &lt;&lt;&lt;&lt;&lt;===================
 ----------------------------------------------------------*/
 footer{
 	clear:both;
-	height: 50px;
-	padding: 10px 0px;
-	width:1200px;
+	height: 2.77em;
+	padding: 0.55em 0em;
+	width:66,66em;
 }
 .copyright{
 	float:left;
-	margin-left:30px;
+	margin-left:1,66em;
 }
 .desenvolvedor{
 	float:right;
@@ -488,7 +488,7 @@ samp {
  */
 
 figure {
-  margin: 1em 40px;
+  margin: 1em 2,22em;
 }
 
 /**
@@ -579,7 +579,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 0,05em dotted ButtonText;
 }
 
 /**
@@ -587,8 +587,8 @@ button:-moz-focusring,
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
+  border: 0,05em solid #c0c0c0;
+  margin: 0 0,11em;
   padding: 0.35em 0.625em 0.75em;
 }
 
@@ -643,7 +643,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  outline-offset: -0,11; /* 2 */
 }
 
 /**
